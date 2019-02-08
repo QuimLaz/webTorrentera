@@ -1,0 +1,37 @@
+nav {
+	height: 120px;
+	width: 100%;
+	box-shadow: 0px 3px 8px;
+}
+
+p {
+	margin-bottom: -8px;
+	margin-top: 0px;
+}
+
+#titol {
+	font-size: 30px;
+}
+
+#subtitol {
+	font-size: 18px;
+	margin-left: 26px;
+}
+
+.bg-light {
+	background-color: #9A1B1B!important;
+}
+
+.navbar-brand {
+	color: #EFD8A8!important;
+}
+
+.nav-link {
+	color: #EFD8A8!important;
+	font-size: 20px;
+}
+
+#navbarNav {
+	display: flex;
+	justify-content: flex-end;
+}
