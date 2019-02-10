@@ -56,8 +56,15 @@ aside {
     font-size: calc(20px + 6 * ((100vw - 320px) / 680));
   }
 }
+
 @media screen and (min-width: 1150px) {
   .banner {
     font-size: 40px;
   }
+}
+
+@media screen and (max-width: 700px) {
+	aside {
+		display: none;
+	}
 }
