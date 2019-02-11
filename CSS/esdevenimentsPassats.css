@@ -7,24 +7,18 @@ html, body {
 
 main {
 	height: 80%;
-	width: 80%;
-	float: left;
-	overflow: hidden;
-}
-
-aside {
-	height: 80%;
-	width: 20%;
-	float: left;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	width: 100%;
 	overflow: hidden;
 }
 
 div {
 	overflow: hidden;
 }
+
+a:hover{
+	text-decoration: none;
+}
+
 
 .banner {
 	height: 14%;
@@ -43,22 +37,8 @@ div {
 	margin-top: 7%;
 }
 
-#banner5 {
+#banner4 {
 	margin-bottom: 0px;
-}
-
-#twitterFeed {
-	height: 463px;
-    width: 234px;
-    border-radius: 6px;
-    background-color: #9A1B1B;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-a:hover{
-	text-decoration: none;
 }
 
 @media screen and (min-width: 320px) {
@@ -71,10 +51,4 @@ a:hover{
   .banner {
     font-size: 40px;
   }
-}
-
-@media screen and (max-width: 700px) {
-	aside {
-		display: none;
-	}
 }
