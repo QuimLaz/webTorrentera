@@ -1,0 +1,68 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+main {
+	height: 70%;
+	width: 100%;
+}
+
+#descripcio {
+	background-color: #FFF5DE;
+	color: black;
+	text-align: left;
+	display: inline-block;
+	margin: 5%;
+	padding: 2%;
+	border-radius: 26px;
+	border: 1px solid;
+	border-color: black;
+}
+
+footer {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contacte {
+	height: 100%;
+	width: 20%;
+	margin: 3%;
+	text-align: center;
+	float: left;
+}
+
+img {
+	margin-bottom: 8px;
+}
+
+a {
+	color: #9A1B1B;
+}
+
+a:hover {
+	color: #EFD8A8;
+}
+
+@media screen and (min-width: 320px) {
+  #descripcio {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  #descripcio {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+	img {
+		display: none;
+	}
+}
