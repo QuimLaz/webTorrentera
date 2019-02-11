@@ -8,6 +8,7 @@ html, body {
 main {
 	height: 70%;
 	width: 100%;
+	display: inline-block;
 }
 
 #descripcio {
@@ -27,6 +28,7 @@ footer {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	bottom: 0;
 }
 
 .contacte {
