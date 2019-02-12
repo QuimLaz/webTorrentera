@@ -8,8 +8,6 @@ html, body {
 main {
 	height: 80%;
 	width: 100%;
-	overflow: hidden;
-	display: inline-block;
 	margin-bottom: 20%; 
 }
 
