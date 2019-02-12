@@ -15,7 +15,7 @@ main {
 	height: 40%;
 	width: 15%;
 	margin: 5%;
-	margin-left: 3%;
+	margin-left: 1%;
 	background-color: #9A1B1B;
 	font-size: 24px;
 	color: #EFD8A8;
@@ -25,6 +25,10 @@ main {
 	align-items: center;
 	transition: transform 0.2s;
 	float: left;
+}
+
+#banner1 {
+	margin-left: 10%;
 }
 
 p {
