@@ -46,7 +46,8 @@ aside {
 
 #twitterFeed {
 	height: 463px;
-    width: 234px;
+    width: 264px;
+    margin-right: 2%;
     border-radius: 6px;
     background-color: #9A1B1B;
 	display: flex;

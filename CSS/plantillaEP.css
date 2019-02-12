@@ -1,0 +1,36 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+main {
+	height: 80%;
+	width: 100%;
+	display: inline-block;
+}
+
+#resumEsdeveniment {
+	background-color: #FFF5DE;
+	color: black;
+	text-align: left;
+	display: inline-block;
+	margin: 5%;
+	padding: 2%;
+	border-radius: 26px;
+	border: 1px solid;
+	border-color: black;
+}
+
+@media screen and (min-width: 320px) {
+  #descripcio {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  #descripcio {
+    font-size: 20px;
+  }
+}
