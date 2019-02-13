@@ -39,8 +39,19 @@ footer {
 	float: left;
 }
 
-img {
+.imgXarxes, .contacte {
 	margin-bottom: 8px;
+	height: 200px;
+	width: 200px;
+}
+
+.imgXarxes {
+	color: #9A1B1B;
+}
+
+#arroba {
+	height: 16px;
+	width: 16px;
 }
 
 a {
@@ -64,7 +75,7 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
-	img {
+	.contacte {
 		display: none;
 	}
 }
