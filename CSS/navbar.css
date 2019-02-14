@@ -49,7 +49,7 @@ h1 {
 	font-size: 32px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 600px) {
   h1 {
     font-size: 14px;
   }

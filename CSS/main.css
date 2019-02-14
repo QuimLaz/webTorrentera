@@ -69,7 +69,7 @@ a:hover{
   src: ../Font;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 600px) {
   .banner {
     font-size: 20px;
   }

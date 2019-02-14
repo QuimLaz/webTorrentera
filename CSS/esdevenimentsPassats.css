@@ -46,7 +46,7 @@ a:hover{
 	margin-bottom: 0px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 600px) {
   .banner {
     font-size: 20px;
   }
