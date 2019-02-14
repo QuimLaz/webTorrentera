@@ -64,6 +64,11 @@ a:hover{
   transform: scale(1.1);
 }
 
+@font-face {
+  font-family: Futura;
+  src: ../Font;
+}
+
 @media screen and (min-width: 320px) {
   .banner {
     font-size: 20px;
