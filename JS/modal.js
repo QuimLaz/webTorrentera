@@ -1,7 +1,11 @@
 window.onload = function() {
-	document.getElementById("carouselExampleControls").style.display="none";
+	document.getElementById("container").style.display="none";
 } 
 
 function showCarousel {
-	document.getElementById("carouselExampleControls").style.display="block";
+	document.getElementById("container").style.display="flex";
+}
+
+function hideCarousel {
+	document.getElementById("container").style.display="none"
 }
